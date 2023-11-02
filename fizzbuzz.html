@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fizzbuzz</title>
+</head>
+<body>
+    <script>
+        for (var listednumb=1; listednumb<=100 ; listednumb+=1){
+            if (listednumb%3 == 0 && listednumb%5 == 0) {
+                console.log("fizzbuzz..");
+            } else if (listednumb%5 ==0) {
+                console.log("buzz");
+            } else if (listednumb%3 == 0) {
+                console.log("fizz");
+            }
+            else {
+                console.log(listednumb)
+            }
+        }
+    </script>
+</body>
+</html>
